@@ -1,0 +1,6 @@
+disabled_rules: # Disable rules from the default enabled set.
+- line_length
+- Weak Delegate Violation
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+- Carthage
+- Pods
